@@ -1,0 +1,15 @@
+<%= flash[:message] if flash[:message]%>
+<form method="POST" action="/sign-out-process">
+	<label for="email">E-mail</label>
+	<input type="email" name="email">
+	&nbsp;&nbsp;
+	<label for="text">Password</label>
+	<input type="text" name="password">
+	<label for="text">Birthday</label>
+	<input type="text" name="birthday">
+	<label for="text">age</label>
+	<input type="text" name="age">
+
+</br>
+<input type="submit" name="submit" value="exit">
+</form>
